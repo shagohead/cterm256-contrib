@@ -1,0 +1,97 @@
+# Style params: https://github.com/derailed/k9s/blob/master/internal/config/styles.go#L59
+# Color names: https://github.com/gdamore/tcell/blob/main/color.go#L851
+
+k9s:
+  body:
+    fgColor: white
+    bgColor: default
+    logoColor: purple
+  prompt:
+    fgColor: white
+    bgColor: default
+    suggestColor: lightgray
+    border:
+      command: aqua
+      default: default
+  help:
+    fgColor: white
+    bgColor: default
+    sectionColor: purple
+    keyColor: green
+    numKeyColor: olive
+  frame:
+    title:
+      fgColor: white
+      bgColor: default
+      highlightColor: navy
+      counterColor: purple
+      filterColor: fuchsia
+    border:
+      fgColor: silver
+      focusColor: white
+    menu:
+      fgColor: white
+      keyColor: navy
+      numKeyColor: green
+    crumbs:
+      fgColor: black
+      bgColor: blue
+      activeColor: navy
+    status:
+      newColor: yellow
+      modifyColor: navy
+      addColor: olive
+      pendingColor: gray
+      errorColor: maroon
+      highlightColor: red
+      killColor: fuchsia
+      completedColor: green
+  info:
+    fgColor: navy
+    sectionColor: white
+  views:
+    table:
+      fgColor: white
+      bgColor: default
+      cursorFgColor: black
+      cursorBgColor: default
+      markColor: teal
+      header:
+        fgColor: white
+        bgColor: default
+        sorterColor: purple
+    xray:
+      fgColor: white
+      bgColor: default
+      cursorColor: white
+      graphicColor: navy
+    charts:
+      bgColor: default
+      defaultDialColors:
+        - navy
+        - maroon
+      defaultChartColors:
+        - navy
+        - maroon
+    yaml:
+      keyColor: green
+      colonColor: black
+      valueColor: white
+    # picker:
+    logs:
+      fgColor: white
+      bgColor: default
+      indicator:
+        fgColor: white
+        bgColor: darkslategrey
+        toggleOnColor: green
+        toggleOffColor: red
+  dialog:
+    fgColor: white
+    bgColor: default
+    buttonFgColor: white
+    buttonBgColor: purple
+    buttonFocusFgColor: black
+    buttonFocusBgColor: teal
+    labelFgColor: red
+    fieldFgColor: white
