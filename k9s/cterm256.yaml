@@ -38,7 +38,7 @@ k9s:
       bgColor: blue
       activeColor: navy
     status:
-      newColor: yellow
+      newColor: lightgray
       modifyColor: navy
       addColor: olive
       pendingColor: gray
