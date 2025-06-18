@@ -5,6 +5,8 @@
 // ln -s /path-to-cterm256-configs/gitui/theme.ron $HOME/.config/gitui/theme.ron
 
 (
-    selection_bg: Some("236"),
-    cmdbar_bg: Some("236"),
+ selection_bg: Some("236"), // Main window selection.
+ cmdbar_bg: Some("236"), // Bottom bar main (which not hidden behind [.]) items.
+ cmdbar_extra_lines_bg: Some("236"), // Bottom bar hidden items.
+ disabled_fg: Some("243"), // Disabled menu items.
 )

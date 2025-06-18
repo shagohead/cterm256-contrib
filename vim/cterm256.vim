@@ -25,9 +25,9 @@ hi TabLine ctermfg=250 ctermbg=NONE cterm=NONE
 hi TabLineSel ctermfg=NONE ctermbg=NONE cterm=bold
 hi TabLineFill cterm=NONE
 hi Title ctermfg=250 ctermbg=NONE cterm=bold
-hi Visual ctermfg=NONE ctermbg=240
-hi WinBar ctermfg=247 ctermbg=232 cterm=bold
-hi WinBarNC ctermfg=247 ctermbg=232 cterm=bold
+hi Visual ctermfg=NONE ctermbg=238
+hi WinBar ctermfg=245 ctermbg=NONE cterm=reverse
+hi WinBarNC ctermfg=247 ctermbg=NONE cterm=NONE
 hi VertSplit cterm=NONE
 
 " messages
@@ -53,6 +53,9 @@ hi StatusLineNC ctermfg=251 ctermbg=236 cterm=NONE
 " hi SpellLocal cterm=undercurl guisp=NvimLightGreen
 
 " diffs
+"hi Added ctermfg=10 " Already defined by nvim itself
+"hi Changed ctermfg=14 " Already defined by nvim itself
+"hi Removed ctermfg=9 " Already defined by nvim itself
 hi DiffAdd ctermfg=NONE ctermbg=22
 hi DiffChange ctermfg=NONE ctermbg=17
 hi DiffText ctermfg=NONE ctermbg=30 cterm=NONE
@@ -106,6 +109,7 @@ hi go1 ctermfg=15 ctermbg=NONE
 hi goPackage ctermfg=1 ctermbg=NONE
 hi link goImport Include
 hi link goParen Delimiter
+hi GoDebugCurrent ctermfg=7 ctermbg=53
 
 " python syntax
 hi python1 ctermfg=15 ctermbg=NONE
@@ -135,3 +139,6 @@ hi CmpItemKindMethod ctermfg=13 ctermbg=NONE
 hi CmpItemKindKeyword ctermfg=7 ctermbg=NONE
 hi CmpItemKindProperty ctermfg=7 ctermbg=NONE
 hi CmpItemKindUnit ctermfg=7 ctermbg=NONE
+
+" treesitter
+hi link @keyword.conditional Conditional
