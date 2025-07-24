@@ -69,8 +69,9 @@ hi GitSignsDeleteInline ctermfg=NONE ctermbg=124
 " diagnostics
 hi DiagnosticError ctermfg=1 ctermbg=NONE
 hi DiagnosticWarn ctermfg=3 ctermbg=NONE
-hi DiagnosticInfo ctermfg=6 ctermbg=NONE
-hi DiagnosticHint ctermfg=4 ctermbg=NONE
+hi DiagnosticInfo ctermfg=35 ctermbg=NONE
+hi DiagnosticUnderlineInfo cterm=underdotted guisp=NONE
+hi DiagnosticHint ctermfg=18 ctermbg=NONE
 hi DiagnosticOk ctermfg=2 ctermbg=NONE
 
 " quickfix
@@ -139,6 +140,9 @@ hi CmpItemKindMethod ctermfg=13 ctermbg=NONE
 hi CmpItemKindKeyword ctermfg=7 ctermbg=NONE
 hi CmpItemKindProperty ctermfg=7 ctermbg=NONE
 hi CmpItemKindUnit ctermfg=7 ctermbg=NONE
+
+" vim.snippet
+hi SnippetTabstop ctermbg=234
 
 " treesitter
 hi link @keyword.conditional Conditional
