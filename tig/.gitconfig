@@ -1,6 +1,8 @@
 # https://jonas.github.io/tig/
+# https://github.com/jonas/tig/blob/master/doc/tigrc.5.adoc#ui-colors
 
 [tig "color"]
 	cursor = 15 235
+	cursor-blur = 235 15
 	title-focus = white 234 bold
 	title-blur = white 234 dim
