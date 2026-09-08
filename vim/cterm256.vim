@@ -58,7 +58,7 @@ hi StatusLineNC ctermfg=251 ctermbg=236 cterm=NONE
 "hi Removed ctermfg=9 " Already defined by nvim itself
 hi DiffAdd ctermfg=NONE ctermbg=22
 hi DiffChange ctermfg=NONE ctermbg=17
-hi DiffText ctermfg=NONE ctermbg=30 cterm=NONE
+hi DiffText ctermfg=NONE ctermbg=18 cterm=NONE
 hi DiffDelete ctermfg=240 ctermbg=NONE
 hi GitSignsDeleteLn ctermfg=NONE ctermbg=52
 hi GitSignsDeletePreview ctermfg=NONE ctermbg=52
@@ -111,6 +111,8 @@ hi goPackage ctermfg=1 ctermbg=NONE
 hi link goImport Include
 hi link goParen Delimiter
 hi GoDebugCurrent ctermfg=7 ctermbg=53
+hi link goCoverageCovered Added
+hi link goCoverageUncover Removed
 
 " python syntax
 hi python1 ctermfg=15 ctermbg=NONE
@@ -146,3 +148,5 @@ hi SnippetTabstop ctermbg=234
 
 " treesitter
 hi link @keyword.conditional Conditional
+hi link @keyword.import Include
+hi link @keyword.repeat Repeat
