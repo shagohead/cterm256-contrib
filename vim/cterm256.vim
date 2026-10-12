@@ -113,6 +113,7 @@ hi link goParen Delimiter
 hi GoDebugCurrent ctermfg=7 ctermbg=53
 hi link goCoverageCovered Added
 hi link goCoverageUncover Removed
+hi link goCoverageNormalText Comment
 
 " python syntax
 hi python1 ctermfg=15 ctermbg=NONE
